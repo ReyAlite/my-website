@@ -25,7 +25,6 @@
 
 @media (max-width: 420px){
     .intro-container, .txt-container {
-        flex: initial;
         text-align: center;
         padding: 10px;
     }
