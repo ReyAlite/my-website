@@ -1,6 +1,6 @@
 //A bunch of <Typed/> components to crate a neat landing page. 
 
-import React from 'react';
+import React, { useState } from 'react';
 import '../css/intro.css';
 import Typed from 'react-typed';
 
@@ -11,6 +11,8 @@ function Intro() {
     main: 'I like web development, design and sometimes I make music.'
 
   }
+  const [visibility, setVisibility] = useState(false);
+
   return (
     <div className="section-wrapper">
       <div className="intro-container">
@@ -56,7 +58,14 @@ function Intro() {
           strings={[phrases.main]}
           startDelay={7500}
           typeSpeed={20}
+          onComplete={() => setVisibility(true)}
         />
+      </div>
+      <div style={{ width: '100%', height: '0', alignSelf: 'flex-end', paddingBottom: 50 }}>
+        {visibility ? (
+          <button className="scroll-btn" onClick={() => window.scrollBy(0, window.innerHeight)}>&or;</button>
+        )
+          : (<span></span>)}
       </div>
     </div>
   );

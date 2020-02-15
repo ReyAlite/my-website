@@ -16,11 +16,11 @@ const data = {
             "id": 0,
             "title": "Projekt Elektronischer Führerschein",
             "intro": 
-            `During my 5th semester me and a group of students worked together with the company BaringPoint, to develop a two sided mobile application that, 
+            `During my 5th semester me and a group of students worked together with the company BearingPoint, to develop a two sided mobile application that, 
             on the one side allows users to store their car, boat or pilot licence and on the other side makes it possible for authorities, 
-            e.g a police officer or a car rental office, to scan and verify ones licence. 
+            (police officer, car rental office...), to scan and verify one's licence. 
             We worked with React-Native to develop a cross-platform solution for Android and iOS devices.
-            In the team I was responsible for the design and part of the frontend development.`,
+            I was responsible for the design and part of the frontend team.`,
             "image": "",
             "roles": ["Design", "Frontend"],
             "icons": [reactIcon, jsIcon, figmaIcon, gitIcon]
@@ -29,8 +29,8 @@ const data = {
             "id": 1,
             "title": "Frontend Internship",
             "intro": 
-            `As part of my studies I spent five months abroad working for TourScanner, a StartUp based in the heart of Lisbon. 
-            During that time I was able to gain experience in a real working and fast paced StartUp enviroment. 
+            `As part of my study I spent five months abroad working for TourScanner, a StartUp based in the heart of Lisbon. 
+            During that time I was able to gain experience in a real working and fast paced StartUp environment. 
             I worked on features and issues of the website, improving user experience and the StartUp’s web appearance.
             We used gitLab for version control and also to communicate tickets and issues. I had the flexibility to work both 
             from home or the office.`,
@@ -42,9 +42,10 @@ const data = {
             "id": 2,
             "title": "University Courses",
             "intro": 
-            `During my time in university I was able to gain a basic but wide range of knowledge about different technologies.
-            I have worked on software and web projects, and I was introduced to multiple programming languages. I have gathered valuable experience about 
-            Computer Science in general`,
+            `During my time at university I was able to gain a basic but a wide range of knowledge about different technologies.
+            I have worked on software as well as web projects, and I was introduced to multiple programming languages. 
+            I have visited courses about Web Development, Visual Computing, iOS Development and digital Media. 
+            I have gathered valuable knowledge about Computer Science in general.`,
             "image": "",
             "roles": ["Student"],
             "icons": [javaIcon, swiftIcon, pythonIcon, htmlIcon, cssIcon]
