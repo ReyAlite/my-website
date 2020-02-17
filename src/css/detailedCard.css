@@ -1,0 +1,44 @@
+.detailedCard{
+    display: flex;
+    padding: 10px;
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 100%;
+}
+.detailedCard-head {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.detailedCard-img-container  {
+    display: flex;
+}
+
+.detailedCard-img-container img {
+    width: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.detailedCard-main {
+    font-size: 14px;
+}
+
+.detailedCard-footer{
+    display: flex;
+    align-items: center;
+}
+
+.detailedCard-footer img{
+    flex: 2;
+    width: 350px;
+    height: 250px;
+}
+
+.detailedCard-footer span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 9px;
+    background-color: rgba(198, 198, 204, 0.6);
+    margin: 5px;
+} 

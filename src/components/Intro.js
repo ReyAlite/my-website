@@ -8,7 +8,7 @@ function Intro() {
   const phrases = {
     head: 'This is my portfolio.',
     intro: 'I&apos;m currently a student at HTW-Berlin, trying to learn more about Computer Science.',
-    main: 'I like web development, design and sometimes I make music.'
+    main: 'I like web development, user-centered design and sometimes I make music.'
 
   }
   const [visibility, setVisibility] = useState(false);

@@ -3,11 +3,13 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import linkedInIcon from '../assets/linkedin-brands.svg'
 import data from '../data/data.js';
 import Card from '../components/Card';
+import DetailedCard from './DetailedCard';
+
 import '../css/projects.css'
 
 
 function Project() {
-    // const [visibility, setVisibilty] = useState(true);
+    const [visibility, setVisibility] = useState(false);
     const [currentCard, setCurrentCard] = useState(data.properties[0]);
     function nextCard() {
         let i = data.properties.indexOf(currentCard);
@@ -32,7 +34,7 @@ function Project() {
         <div className="project-wrapper">
             <div className="section-wrapper">
                 <button className="btn" onClick={() => previousCard()}>&#60;</button>
-                <div className="projectSlider">
+                <div className="projectSlider" onClick={() => setVisibility(!visibility)}>
                     <TransitionGroup component={null}>
                         <CSSTransition
                             key={currentCard.id}
@@ -43,6 +45,11 @@ function Project() {
                         </CSSTransition>
                     </TransitionGroup>
                 </div>
+                {visibility ? (
+                    <div className="detailedCard-wrapper" onClick={() => setVisibility(!visibility)}>
+                        <DetailedCard card={currentCard}></DetailedCard>
+                    </div>
+                ) : (<span></span>)}
                 <button className="btn" onClick={() => nextCard()}>&#62;</button>
             </div>
             <footer>

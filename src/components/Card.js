@@ -3,6 +3,7 @@ import '../css/card.css';
 
 const Card = (props) => {
     const card = props.card;
+
     const roles = card.roles.map((role) => {
         return (
             <p className="cardRole" key={role + "-key"}>{role}</p>
@@ -19,7 +20,7 @@ const Card = (props) => {
             <div className="card-main">
                 <div className="card-main-txt">
                     <h3>{card.title}</h3>
-                    <p className="cardText">{card.intro}</p>
+                    <p className="cardText">{card.txt}</p>
                 </div>
                 <div className="card-main-roles">
                     <h3>Roles</h3>

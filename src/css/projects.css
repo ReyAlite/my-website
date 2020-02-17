@@ -38,6 +38,27 @@
     opacity: 0;
 }
 
+/*DETAILED CARD*/
+.detailedCard-wrapper{
+    width: 600px;
+    height: 500px;
+    background-color: #D5D5E0;
+    color: #010029;
+    position: absolute;
+    animation: slide-up 0.4s ease-in-out;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /*Footer*/
 
 footer {
@@ -73,5 +94,8 @@ footer img:hover {
 @media (max-width: 420px) {
     .project-wrapper .section-wrapper {
         flex-direction: row;
+    }
+    .detailedCard-wrapper{
+        display: none;
     }
 }
