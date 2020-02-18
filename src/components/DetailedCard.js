@@ -3,7 +3,7 @@ import '../css/detailedCard.css'
 
 const DetailedCard = (props) => {
     const card = props.card
-    console.log(card.img.length)
+    console.log(card)
     const icons = card.icons.map((icon, i) => {
         let iconTxt = (icon.slice(icon.lastIndexOf('/'), icon.indexOf('-'))).substring(1);
         return (
@@ -21,14 +21,9 @@ const DetailedCard = (props) => {
             );
         }
     }
-    const codeSnippet = `
-    filteredLanguages(activity){
-        let languages = activity.winner.languages;
-        let filteredLang = languages.filter(language => language === this.lang || language === 'gb');
-        return filteredLang;
-         }
-     }
-    `
+    // const codeSnippet = `
+    
+    // `
     return (
         <div className="detailedCard">
             <div className="detailedCard-head">
@@ -42,7 +37,7 @@ const DetailedCard = (props) => {
             </div>
             <div className="detailedCard-footer">
                 {getImage(0)}
-                <span>{codeSnippet}</span>
+                <span>{card.imgDesc}</span>
             </div>
         </div>
     );

@@ -23,6 +23,7 @@ const data = {
             We worked with React-Native to develop a cross-platform solution for Android and iOS devices.
             I was responsible for the design and part of the frontend team.`,
             "img": "",
+            "imgDesc": "",
             "roles": ["Design", "Frontend"],
             "icons": [reactIcon, jsIcon, figmaIcon, gitIcon]
         },
@@ -36,6 +37,13 @@ const data = {
             We used gitLab for version control and also to communicate tickets and issues. I had the flexibility to work both 
             from home or the office.`,
             "img": [langcount],
+            "imgDesc" : `
+            filteredLanguages(activity){
+                let languages = activity.winner.languages;
+                let filteredLang = languages.filter(language => language === this.lang || language === 'gb');
+                return filteredLang;
+                 }
+             }`,
             "roles": ["Frontend", "Testing"],
             "icons": [vueIcon, jsIcon, sassIcon, gitIcon]
         },
@@ -48,6 +56,7 @@ const data = {
             I have visited courses about Web Development, Visual Computing, iOS Development and digital Media. 
             I have gathered valuable knowledge about Computer Science in general.`,
             "img": "",
+            "imgDesc" : "",
             "roles": ["Student"],
             "icons": [javaIcon, swiftIcon, pythonIcon, htmlIcon, cssIcon]
         },
