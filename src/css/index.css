@@ -22,17 +22,15 @@ body{
   margin: auto;
 }
 .scroll-btn {
-  background: #D5D5E0;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  border-width: 0;
-  color: #010029;
+  background: transparent;
+  color: #D5D5E0;
   display: block;
   margin-left: auto;
   margin-right: auto;
   transition: all 0.5s ease-in-out;
-  font-size: 14px;
+  font-size: 28px;
+  border-width: 0;
+  font-weight: bold;
   animation: come-in 2s ease;
 }
 @keyframes come-in{

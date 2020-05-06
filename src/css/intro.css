@@ -1,11 +1,9 @@
 .intro-container {
     flex: 2;
-    height: 9em;
 }
 
 .txt-container {
     flex: 1;
-    height: 6em;
 }
 
 .intro-container span {
