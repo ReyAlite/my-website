@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/card.css';
 
 const Card = (props) => {
+    console.log(props);
     const card = props.card;
     const roles = card.roles.map((role) => {
         return (
