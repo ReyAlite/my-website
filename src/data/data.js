@@ -10,7 +10,7 @@ import pythonIcon from '../assets/python-brands.svg';
 import swiftIcon from '../assets/swift-brands.svg';
 import sassIcon from '../assets/sass-brands.svg'
 
-const data = {
+const dataSet = {
     "properties": [
         {   
             "id": 0,
@@ -50,8 +50,20 @@ const data = {
             "roles": ["Student"],
             "icons": [javaIcon, swiftIcon, pythonIcon, htmlIcon, cssIcon]
         },
-        
-    ]
+    ], 
+    "text" :
+        {
+            "aboutText" : 
+                    `I’m 24 years old and currently living in Berlin, Germany. 
+                    During my studies I was able to gather a wide variety of basic knowledge about many technologies. I also got introduced to multiple programming languages and programming concepts.
+                    Last year, I spent five months abroad doing an internship in a Startup in Lisbon, where I was able to gain practical experiences in a professional working environment. 
+                    Using web technologies like HTML/CSS and JavaScript is nothing new to me and I also came in touch with modern web frameworks like Vue.js, React and Bootstrap. 
+
+                    I am an open-minded person, thoughtful, dutiful and creative. I like solving problems and improving things. In the future I'm looking forward strengthening my knowledge of
+                    modern web technologies and also seriously learning about design.
+                    `
+        }
 }
 
-export default data;
+export {dataSet};
+export default dataSet;
