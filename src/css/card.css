@@ -46,6 +46,14 @@
     display: block;
     width: 35px;
 }
+/*ICON HOVER*/
+.js-icon:hover {
+    filter: invert(.5) sepia(1) saturate(10) hue-rotate(28deg);
+}
+
+.react-icon:hover {
+    filter: invert(.5) sepia(1) saturate(10) hue-rotate(150deg);
+}
 
 @media (max-width: 420px) {
     .card {
