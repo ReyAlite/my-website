@@ -27,7 +27,7 @@ function About() {
                 </div>
                 <div className="aboutTxt-container">
                     <span>{txt}</span>
-                    <p>{projectTxt}</p>
+                    <p onClick={() => window.scrollBy(0, document.body.scrollHeight)}>{projectTxt}</p>
                     
                 </div>
                 <div style={{ width: '100%', height: '0', alignSelf: 'flex-end', paddingBottom: 50 }}>
