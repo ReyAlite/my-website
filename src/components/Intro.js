@@ -7,7 +7,7 @@ import Typed from 'react-typed';
 function Intro() {
   const phrases = {
     head: 'This is my portfolio.',
-    intro: 'I&apos;m currently studying International Media and Computer Science at the HTW-Berlin and working on my bachelors thesis.',
+    intro: 'I&apos;m currently studying International Media and Computer Science at the HTW-Berlin and working on my bachelor thesis.',
     main: 'I&apos;m passionate about web development and especially about creative, user centered design.'
 
   }
