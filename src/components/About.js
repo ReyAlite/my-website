@@ -5,6 +5,8 @@ import { dataSet } from '../data/data.js';
 import '../css/about.css';
 
 const txt = dataSet.text.aboutText;
+const projectTxt = dataSet.text.projectsText;
+
 
 function About() {
     const [flipped, setFlip] = useState(false)
@@ -25,6 +27,8 @@ function About() {
                 </div>
                 <div className="aboutTxt-container">
                     <span>{txt}</span>
+                    <p>{projectTxt}</p>
+                    
                 </div>
                 <div style={{ width: '100%', height: '0', alignSelf: 'flex-end', paddingBottom: 50 }}>
                     <button className="scroll-btn" onClick={() => window.scrollBy(0, window.innerHeight + 60)}>&or;</button>

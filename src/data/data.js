@@ -54,14 +54,16 @@ const dataSet = {
     "text" :
         {
             "aboutText" : 
-                    `I’m 24 years old and currently living in Berlin, Germany. 
-                    During my studies I was able to gather a wide variety of basic knowledge about many technologies. I also got introduced to multiple programming languages and programming concepts.
-                    Last year, I spent five months abroad doing an internship in a Startup in Lisbon, where I was able to gain practical experiences in a professional working environment. 
-                    Using web technologies like HTML/CSS and JavaScript is nothing new to me and I also came in touch with modern web frameworks like Vue.js, React and Bootstrap. 
+                    `I am 24 years old and currently living in Berlin, Germany. 
+                    During my studies I was able to gather a wide range of knowledge about web technologies. I also got introduced to multiple programming languages and programming concepts.
+                    Last year, I did an internship in a startup based in Lisbon, where I worked as a frontend developer and was able to gain practical experiences. 
+                    Using web technologies like HTML/CSS and JavaScript is nothing new to me and I also came in touch with modern web frameworks like Vue.js, React and Bootstrap.\
 
                     I am an open-minded person, thoughtful, dutiful and creative. I like solving problems and improving things. In the future I'm looking forward strengthening my knowledge of
-                    modern web technologies and also seriously learning about design.
-                    `
+                    modern web technologies and also seriously learn about design.`, 
+            "projectsText" : 
+                    `Please feel free to take a look at the projects I have been working on.`
+                    
         }
 }
 
