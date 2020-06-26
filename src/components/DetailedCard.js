@@ -17,28 +17,34 @@ const DetailedCard = (props) => {
             )
         } else {
             return (
-                <span></span>
+                null
             );
         }
     }
-    // const codeSnippet = `
-    
-    // `
     return (
+        // <div className="detailedCard">
+        //     <div className="detailedCard-head">
+        //         <h2 className="detailedCard-title">{card.title}</h2>
+        //         <div className="detailedCard-img-container">
+        //             {icons}
+        //         </div>
+        //     </div>
+        //     <div className="detailedCard-main">
+        //         {card.txt}
+        //     </div>
+        //     <div className="detailedCard-footer">
+        //         {getImage(0)}
+        //         <span>{card.imgDesc}</span>
+        //     </div>
+        // </div>
         <div className="detailedCard">
-            <div className="detailedCard-head">
-                <h2 className="detailedCard-title">{card.title}</h2>
-                <div className="detailedCard-img-container">
-                    {icons}
-                </div>
-            </div>
-            <div className="detailedCard-main">
-                {card.txt}
-            </div>
-            <div className="detailedCard-footer">
-                {getImage(0)}
-                <span>{card.imgDesc}</span>
-            </div>
+        <h2 className="detailedCard-title">{card.title}</h2>
+        <div className="detailedCard-img-container">
+            {icons}
+        </div>
+            <p className="detailedCard-txt">{card.txt}</p>
+            {getImage(0)}
+            <span>{card.imgDesc}</span>
         </div>
     );
 }
