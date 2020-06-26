@@ -18,6 +18,15 @@
     color: #010029;
 }
 
+.aboutTxt-container p {
+    margin-top: 1.5em;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.aboutTxt-container p:hover{
+    transform: scale(1.03);
+}
+
 .about-title {
     text-align: center;
     padding-top: 20px;

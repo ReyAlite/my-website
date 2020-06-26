@@ -48,7 +48,7 @@ function Project() {
             <footer>
                 <div className="footer-contactContainer">
                     <p style={{ fontWeight: 'bold' }}>Contact</p>
-                    <p style={{ fontSize: 12, opacity: 0.8 }}>r.alite@posteo.de</p>
+                    <p style={{ fontSize: 12, opacity: 0.8 }}>r.alite@yahoo.de</p>
                     <p style={{ fontSize: 12, opacity: 0.8 }}>Berlin, DE</p>
                 </div>
                 <div className="footer-imgContainer">
